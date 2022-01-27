@@ -10,6 +10,10 @@ export default function MovieCard({ movie, key }) {
                 <div className={styles.Plot}>
                     <p>{movie.plot}</p>
                 </div>
+                <div className={styles.Link}>
+                    <a href={movie.link} target="_blank" rel="noreferrer" >More info</a>
+                </div>
+
             </div>
         </div>
     ) : null
