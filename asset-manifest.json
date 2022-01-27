@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MovieLSChallenge/static/css/main.a3591bf1.css",
-    "main.js": "/MovieLSChallenge/static/js/main.249805ba.js",
+    "main.css": "/MovieLSChallenge/static/css/main.6e594a1b.css",
+    "main.js": "/MovieLSChallenge/static/js/main.e68ff977.js",
     "static/media/spiderman_no-way-home.jpg": "/MovieLSChallenge/static/media/spiderman_no-way-home.27d53d6707198f5b3851.jpg",
     "static/media/army-of-the-dead.jpg": "/MovieLSChallenge/static/media/army-of-the-dead.efd68c9c71c8d4f445bd.jpg",
     "static/media/venom_let-there-be-carnage.jpg": "/MovieLSChallenge/static/media/venom_let-there-be-carnage.6c80211c0059c12d0ad4.jpg",
@@ -12,11 +12,11 @@
     "static/media/last-night-in-soho.jpg": "/MovieLSChallenge/static/media/last-night-in-soho.7a98803b4eaf4df02fdc.jpg",
     "static/media/dune.jpg": "/MovieLSChallenge/static/media/dune.b28aefad7f17a31cf118.jpg",
     "index.html": "/MovieLSChallenge/index.html",
-    "main.a3591bf1.css.map": "/MovieLSChallenge/static/css/main.a3591bf1.css.map",
-    "main.249805ba.js.map": "/MovieLSChallenge/static/js/main.249805ba.js.map"
+    "main.6e594a1b.css.map": "/MovieLSChallenge/static/css/main.6e594a1b.css.map",
+    "main.e68ff977.js.map": "/MovieLSChallenge/static/js/main.e68ff977.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3591bf1.css",
-    "static/js/main.249805ba.js"
+    "static/css/main.6e594a1b.css",
+    "static/js/main.e68ff977.js"
   ]
 }
