@@ -42,8 +42,8 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 500;
 
   @media (min-width: 700px) {
     font-size: 2rem;
@@ -84,6 +84,6 @@ p {
   position: relative;
 
   @media (min-width: 1050px) {
-    padding: 0 8em;
+    padding: 0 5em;
   }
 }

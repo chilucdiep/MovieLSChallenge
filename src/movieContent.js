@@ -6,7 +6,7 @@ export const movieInfo = {
 
 export const movies = [
   {
-    "image_name": "night-in-soho.jpg",
+    "image_name": "last-night-in-soho.jpg",
     "title": "Last Night in Soho",
     "genre": ["horror", "drama", "mystery"],
     "plot": "An aspiring fashion designer is mysteriously able to enter the 1960s where she encounters a dazzling wannabe singer. But the glamour is not all it appears to be and the dreams of the past start to crack and splinter into something darker.",
@@ -20,7 +20,7 @@ export const movies = [
     "link": "https://www.imdb.com/title/tt10954652/?ref_=adv_li_tt"
   },
   {
-    "image_name": "old.jpg",
+    "image_name": "resident-evil_welcome-to-raccoon-city.jpg",
     "title": "Resident Evil: Welcome to Raccoon City",
     "genre": ["action", "horror", "sci-fi"],
     "plot": "Set in 1998, this origin story explores the secrets of the mysterious Spencer Mansion and the ill-fated Raccoon City",

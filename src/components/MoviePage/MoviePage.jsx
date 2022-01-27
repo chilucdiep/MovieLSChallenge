@@ -1,18 +1,23 @@
 import { useState } from 'react';
-import { movieInfo } from '../../movieContent.js'
+import { movieInfo, movies } from '../../movieContent.js'
 import GenreInput from "./GenreInput/GenreInput";
+import MovieList from "./MovieList/MovieList";
 import styles from './MoviePage.module.scss'
 
-export default function MovieList() {
-    const [movies, setmovies] = useState(null);
-    console.log(movieInfo)
+export default function MoviePage() {
+    const [oo, setmovies] = useState(null);
+    const { main_title, filter_text } = movieInfo
+    console.log(main_title)
 
     return (
         <div className={styles.MoviePage}>
-            <h1>{movieInfo.main_title}</h1>
-            <h3>{movieInfo.filter_text}</h3>
+            <div className={styles.Header}>
+                <h1>{main_title}</h1>
+                <h3>{filter_text}</h3>
+
+            </div>
             <GenreInput />
-            {/* <MovieList /> */}
+            <MovieList movies={movies} />
         </div>
     );
 }
