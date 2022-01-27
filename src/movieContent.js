@@ -1,8 +1,8 @@
-export const movies = [
-  { "main_title": "Check out all the latest movies" },
-  { "filter_text": "Filter movies by genre" },
-  { "button_text": "Visit page" }
-]
+export const movieInfo = {
+  "main_title": "Check out all the latest movies",
+  "filter_text": "Filter movies by genre",
+  "button_text": "Visit page"
+}
 
 export const movies = [
   {
