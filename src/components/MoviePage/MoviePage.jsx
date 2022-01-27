@@ -16,7 +16,7 @@ export default function MoviePage() {
                 <h3>{filter_text}</h3>
 
             </div>
-            <GenreInput />
+            <GenreInput movies={movies} />
             <MovieList movies={movies} />
         </div>
     );
