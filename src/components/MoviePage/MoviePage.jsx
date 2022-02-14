@@ -6,8 +6,9 @@ import styles from './MoviePage.module.scss'
 
 export default function MoviePage() {
     const [oo, setmovies] = useState(null);
+    const [selectedGenre, setSelectedGenre] = useState('')
     const { main_title, filter_text } = movieInfo
-    console.log(main_title)
+    console.log(selectedGenre)
 
     return (
         <div className={styles.MoviePage}>
@@ -16,8 +17,8 @@ export default function MoviePage() {
                 <h3>{filter_text}</h3>
 
             </div>
-            <GenreInput movies={movies} />
-            <MovieList movies={movies} />
+            <GenreInput movies={movies} setSelectedGenre={setSelectedGenre} />
+            <MovieList movies={movies} selectedGenre={selectedGenre} />
         </div>
     );
 }
